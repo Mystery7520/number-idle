@@ -13,14 +13,13 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
-	name: "Literally nothing",
+	num: "0.0.1",
+	name: "THE BEGGINING",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
 	<h3>v0.0</h3><br>
-		- Added things.<br>
-		- Added stuff.`
+		- Made the game.<br>
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
 
@@ -51,12 +50,12 @@ function addedPlayerData() { return {
 }}
 
 // Display extra things at the top of the page
-var displayThings = [
+var displayThings = [good luck have fun
 ]
 
 // Determines when the game "ends"
 function isEndgame() {
-	return player.points.gte(new Decimal("e280000000"))
+	return player.points.gte(new Decimal("eee69"))
 }
 
 
